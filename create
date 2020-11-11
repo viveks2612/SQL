@@ -1,0 +1,13 @@
+CREATE TABLE persons (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    birth_date DATE,
+    phone VARCHAR(15) NOT NULL UNIQUE
+);
+ 
+CREATE TABLE persons (
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    name VARCHAR(50) NOT NULL,
+    birth_date DATE,
+    phone VARCHAR(15) NOT NULL UNIQUE
+);
